@@ -1,15 +1,17 @@
-A one-liner phrase describing this project or app
+Know your rights, end poverty.
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+We seek to connect the stakeholders in the legal, legislative, administrative and financial fields to the most poverty-stricken
+in our society by coalescing them in one platform making it easier for knowledge to flow while preventing and reporting
+abuse of rights.
 
 Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
 
-This is a simple python starter repo template for setting up your project. The setup contains:
+The setup contains:
 
 - install: poetry via pip. poetry is a dependecy manager.
 
@@ -19,7 +21,10 @@ This is a simple python starter repo template for setting up your project. The s
 
 ## Why
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are important
+We try to address the first SDG goal, No Poverty, by leveraging our country's high internet and smartphone penetration rate,
+to spread rights awareness, which an absence of leads to people being taken advantage of and missing out on opportunities to
+grow themselves, due to lack of knowledge or a loss of access to information. This is our way of doing our part, striving to
+alleviate poverty. 
 
 ## Usage
 How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
@@ -98,7 +103,8 @@ All tests should be written in the `tests` folder. tests/test_src.py is a sample
 
 ## Authors
 
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
+github.com/fatahrez
+github.com/4lexchi
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
