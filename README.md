@@ -103,8 +103,7 @@ All tests should be written in the `tests` folder. tests/test_src.py is a sample
 
 ## Authors
 
-github.com/fatahrez
-github.com/4lexchi
+github.com/fatahrez  github.com/4lexchi
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
