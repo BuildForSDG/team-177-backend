@@ -1,4 +1,4 @@
-##KenRight
+## KenRight
 
 Know your rights, end poverty.
 
