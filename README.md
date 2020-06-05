@@ -1,4 +1,4 @@
-#KenRight
+##KenRight
 
 Know your rights, end poverty.
 
@@ -28,7 +28,7 @@ To be updated
 
 ## Authors
 
--**fatahrez** - [Github](https://github.com/fatahrez),  -**4lexchi** - [Github](https://github.com/4lexchi) 
+**fatahrez** - [Github](https://github.com/fatahrez),  **4lexchi** - [Github](https://github.com/4lexchi) 
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
