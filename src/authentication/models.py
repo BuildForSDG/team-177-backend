@@ -1,7 +1,6 @@
 import jwt
 
 from datetime import datetime, timedelta
-
 from django.conf import settings
 from django.contrib.auth.base_user import BaseUserManager, AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
@@ -27,7 +26,7 @@ class UserManager(BaseUserManager):
         if password is None:
             raise TypeError('Superuser must have a password')
 
-        user = self.create_superuser(username, email, password)
+        user = self.create_user(username, email, password)
         user.is_superuser = True
         user.is_staff = True
         user.save()

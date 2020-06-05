@@ -1,3 +1,5 @@
+#KenRight
+
 Know your rights, end poverty.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/73361d6eea2b41c181aa9b57c4c8e2d5)](https://app.codacy.com/gh/BuildForSDG/team-177-backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-177-backend&utm_campaign=Badge_Grade_Settings)
@@ -26,7 +28,7 @@ To be updated
 
 ## Authors
 
-github.com/fatahrez,  github.com/4lexchi  
+-**fatahrez** - [Github](https://github.com/fatahrez),  -**4lexchi** - [Github](https://github.com/4lexchi) 
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Providing access to basic human rights.">
+        <meta name="keywords" content="poverty, sdg, rights, poor, help, law">
+        <meta name="author" content="team-177">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis:400,700"/>
+
+        {% load static %}
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'frontend/images/favicon/apple-touch-icon.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'frontend/images/favicon/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'frontend/images/favicon/favicon-16x16.png' %}">
+        <link rel="manifest" href="{% static 'frontend/images/favicon/site.webmanifest' %}">
+        
+        <title>kenright | connect</title>
+
+        <link rel="stylesheet" type="text/css" href="{% static 'frontend/style.css' %}">
+    </head>
+    <body>
+        <div id="root"></div>
+        <!--<script src="{% static 'frontend/script.js' %}"></script>-->
+        <header>
+            <a href="{% url 'home' %}"><img src="{% static 'frontend/images/logo_negative_125.png' %}"></a>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'account' %}">Create Account</a></li>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'contactus' %}">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main-box">
+            <p>Welcome {{ request.user }}</p>
+            <div id="quicklinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>
+                        <a href="http://kenyalaw.org/kenya_gazette/" target="_blank" rel="noopener noreferrer">
+                            Kenya Gazette
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://kenyalaw.org:8181/exist/kenyalex/index.xql" target="_blank" rel="noopener noreferrer">
+                            The Laws of Kenya
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.knchr.org/" target="_blank" rel="noopener noreferrer">
+                            Kenya National Commission on Human Rights
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-1-no-poverty.html" target="_blank" rel="noopener noreferrer">
+                            Sustainable Development Goals
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="box-1">
+
+                {% block content %}
+
+                {% endblock %}
+            </div>
+        
+
+            <footer>
+                <small><p>&copy; 2020 <strong><em>Know your rights, end poverty.</em></strong> Developed by: <a target="_blank" href="https://github.com/orgs/BuildForSDG/teams/team-177" rel="noopener noreferrer">team-177</a></p></small>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -19,6 +19,10 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
+# bringing in pages for the front end
+
+from frontend import views 
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Kenright API",
@@ -29,8 +33,22 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
+    path('', schema_view.with_ui('swagger', cache_timeout=0), name="schema-swagger-ui"),
     path('admin/', admin.site.urls),
     path('api/v1/', include('authentication.urls', namespace="authentication")),
 
-    path('', schema_view.with_ui('swagger', cache_timeout=0), name="schema-swagger-ui")
+    path('home/', views.index, name='home'),
+    path('about/', views.about, name='about'),
+    path('contactus/', views.contactus, name='contactus'),
+    path('rights/', views.rights, name='rights'),
+    path('report/', views.report, name='report'),
+    path('account/', views.account, name='account'),
+    path('legal/', views.legal, name='legal'),
+    path('legislative/', views.legislative, name='legislative'),
+    path('ngao/', views.ngao, name='ngao'),
+    path('financial/', views.financial, name='financial'),
+    path('password/', views.password, name='password'),
+    path('ideology/', views.ideology, name='ideology'),
+
+
 ]
