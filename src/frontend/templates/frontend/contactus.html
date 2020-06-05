@@ -1,0 +1,35 @@
+{% extends 'frontend/basic.html' %}
+
+{% block content %}
+<div id="box-contactus">
+    <h3>Get in touch with us.</h3>
+    <p>
+        Leave a comment or query on your experience with this
+        platform and may be a suggestion on how to improve it.
+    </p>
+    <form action="#" method="POST">
+        <div>
+            <label>Your name:
+                <input type="text" name="name" placeholder="Your name" required>
+            </label>
+        </div>
+        <div>
+            <label>Your phone number or email address:
+                <input type="text" name="user_name" placeholder="Phone number or email address" required>
+            </label>
+        </div>
+        <div>
+            <label>Message:
+                <input type="textarea" name="message" placeholder="Message">
+            </label>
+        </div>
+        <input class="button" type="submit" name="submit" value="Submit">
+    </form>
+    <p>
+        We'll get back to you as soon as possible.
+    </p>
+    <p>
+        Do you want to <a href="{% url 'report' %}">report a case</a> of abuse of rights?
+    </p>
+</div>
+{% endblock %}
