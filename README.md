@@ -18,6 +18,10 @@ spread rights awareness, which an absence of leads to people being taken advanta
 themselves, due to lack of knowledge or a loss of access to information. This is our way of doing our part, striving to
 alleviate poverty.
 
+## Screenshot
+
+![backend](https://user-images.githubusercontent.com/57438007/84053343-7169ed00-a9ba-11ea-8808-4057c3d8b982.png)
+
 ## Usage
 
 Currently in development
