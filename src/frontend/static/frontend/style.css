@@ -23,7 +23,9 @@ ul {
   list-style: none;
 }
 
-form {
+form {/*
+  position: relative;
+  z-index: -1;*/
   background: #d1bdb8;
 	margin: auto;
 	border: black solid;
@@ -31,13 +33,18 @@ form {
 	font-size: 16px;
 	line-height: 1.5em;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 0 4px 8px 0 #888888;
+  transition: 0.3s;
+}
+
+form:hover {
+  box-shadow: 0 8px 16px 0 #888888;
 }
 
 label {
 	display: inline-block;
-    width: 100%;
-    text-align: left;
+  width: 100%;
+  text-align: left;
 }
 
 input {
@@ -115,8 +122,14 @@ p {
   font-size: 14px;
   background-color: #92cac0;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 0 4px 8px 0 #888888;
+  transition: 0.3s;
 }
+
+#quicklinks:hover {
+  box-shadow: 0 8px 16px 0 #888888;
+}
+
 
 header {
   position: sticky;
@@ -124,7 +137,12 @@ header {
   top: 0px;
   background: #c7c7e7;
   min-height: 70px;
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 0 4px 8px 0 #888888;
+  transition: 0.3s;
+}
+
+header:hover {
+  box-shadow: 0 8px 16px 0 #888888;
 }
 
 header li {
@@ -152,58 +170,26 @@ footer {
 	margin: auto;
 }
 
-#box-block {
+#container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 9px;
 }
 
-#block-1 {
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  border: 1px solid gray;
+#card {
+  width: 100%;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 #888888;
+  transition: 0.3s;
   }
 
-#block-2 {
-  float: right;
-  width: 50%;
-  box-sizing: border-box;
-  margin: 5;
-  border: 1px solid gray;
- }
-  
-#block-3 {
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin: 5;
-  border: 1px solid gray;
+  #card:hover {
+  box-shadow: 0 8px 16px 0 #888888;
   }
-
-#block-4 {
-  float: right;
-  width: 50%;
-  box-sizing: border-box;
-  margin: 5;
-  border: 1px solid gray;
-  }
-
-#block-5 {
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  margin: 5;
-  border: 1px solid gray;
-  }
-  
-#block-6 {
-  float: right;
-  width: 50%;
-  box-sizing: border-box;
-  margin: 5;
-  border: 1px solid gray;
-  }
-
 
 /*account*/
 
