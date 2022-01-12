@@ -20,7 +20,7 @@ itypes==1.2.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 packaging==20.3
-pipenv==2018.11.26
+pipenv==2022.1.8
 psycopg2==2.8.5
 pycosat==0.6.3
 pycparser==2.19
